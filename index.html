@@ -10,16 +10,17 @@
 <body>
     <h1>Your personal Todo-List.</h1>
 
-    <form action="/submit" method="post">
+    <ul id="todos"></ul>
+
+    <form>
         <!-- Label for First Name -->
         <label for="task">Add your task here:</label>
 
         <!-- Text Input for First Name -->
         <input type="text" id="task" name="task" required>
-
-        <!-- Submit Button -->
-        <button type="submit">Add</button>
+        <input type="button" id="btn" value="Add">
     </form>
+    <script src="main.js"></script>
 </body>
 
 </html>
